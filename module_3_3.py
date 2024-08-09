@@ -13,5 +13,5 @@ print_params(c=[1, 2, 3])
 print_params(*values_list)
 print_params(**values_dict)
 # Нельзя передать values_list и values_dict в функцию print_params, так как
-# сколько элементов у нас принимает функция и сколько параметров она ожидает
+# сколько элементов принимает функция, сколько параметров она ожидает
 print_params(*values_list_2, 42)
